@@ -18,6 +18,7 @@ class GlassScreen extends StatelessWidget {
             right: 16,
             bottom: 32,
             child: ClipRRect(
+              borderRadius: BorderRadius.circular(24),
               child: BackdropFilter(
                 filter: ImageFilter.blur(sigmaX: 40, sigmaY: 40),
                 child: Container(
