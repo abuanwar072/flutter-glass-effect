@@ -12,7 +12,7 @@ class GlassScreen extends StatelessWidget {
       body: Stack(
         children: [
           Image.asset(
-            "assets/Preview.png",
+            "assets/bg_1.jpg",
             fit: BoxFit.fitHeight,
             height: double.infinity,
           ),
